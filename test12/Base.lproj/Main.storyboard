@@ -32,6 +32,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Show text" cornerStyle="dynamic">
                                     <color key="baseBackgroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="clicker" destination="BYZ-38-t0r" eventType="touchUpInside" id="xNX-0z-hHi"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -48,6 +51,10 @@
                             <constraint firstItem="xar-hZ-h2V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98" id="yKr-BZ-TbZ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ShowButton" destination="6uj-gs-cEY" id="sPd-gX-BRb"/>
+                        <outlet property="labelText" destination="xar-hZ-h2V" id="hJd-mQ-tjt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
